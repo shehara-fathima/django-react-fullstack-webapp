@@ -1,0 +1,19 @@
+@keyframes shimmer {
+  0% {
+    fill: gold;
+    filter: drop-shadow(0 0 2px gold);
+  }
+  50% {
+    fill: #fff7a1;
+    filter: drop-shadow(0 0 8px gold);
+  }
+  100% {
+    fill: gold;
+    filter: drop-shadow(0 0 2px gold);
+  }
+}
+
+.sparkling-icon {
+  animation: shimmer 2s infinite;
+}
+
